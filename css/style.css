@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1291px;
+
+}
+
+.topo {
+    width: 90%;
+    padding-top: 40px;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10rem;
+}
+
+.topo p{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    
+}
+
+.container-content {
+    display: flex;
+}
+
+.container-image {
+    width: 50%;
+    height: 437;
+}
+
+.container-image img{
+    width: 33rem;
+}
+
+.container-text {
+    width: 50%;
+    height: 188px;
+}
+
+.container-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    font-family: 'Space Mono', sans-serif;
+    letter-spacing: -0.035em;
+}
+
+.container-text p {
+    width: 23.8rem;
+    margin-bottom: 64px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Space Mono', sans-serif;
+    letter-spacing: -0.035em;
+}
+
+.container-text button {
+    width: 216px;
+    height: 68px;
+    padding: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #333333;
+    text-transform: uppercase;
+    font-family: 'Space Mono', sans-serif;
+    
+    
+}
+
+.container-text button:hover {
+    background-color: rgba(51 51 51 / 91%);
+}
+
+footer {
+    margin-top: 500px;
+    width: 400px;
+    margin-bottom: 24px;
+    align-self: center;
+    line-height: 17px;
+    font-size: 14px;font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1040px) {
+
+    .topo p{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+    .topo {
+        margin-bottom: 60px;
+    }
+
+    .container-content {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container-image {
+        width: 100%;
+        height: 238px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-image img {
+        width: 286px;
+        height: 238px;
+    }
+
+    .container-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .container-text h1 {
+        margin-top: 60px;
+        font-size: 2.5rem;
+        max-width: 21.8rem;
+    }
+
+    .container-text p {
+    
+        margin-top: 30px;
+        font-size: 1.1rem;
+        max-width: 20.5rem;
+    }
+
+    .container-text button {
+        margin-top: 60px;
+    }
+
+    footer {
+        margin-top: 137px;
+    }
+    
+}
